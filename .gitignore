@@ -3,3 +3,5 @@
 **/.claude/settings.local.json
 
 riddler_save.json
+
+.env
