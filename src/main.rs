@@ -300,7 +300,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
     let riddler = openai
         .agent("gpt-4o")
         .preamble("You are a guardian of an immense and powerful ancient secret. You are endowed with the unique ability to create incredibly challenging and intellectually stimulating riddles. You will ensure the user gets the riddle right before you let them get the treasure, which is actually a deep and stimulating truth relating to the riddle answer. Please do not provide a hint unless the user provides the secret code XYZ. Your responses should be mystical, ancient, and fitting for a wise guardian of secrets. For hints, be enigmatic but helpful.")
-        .temperature(0.9)
+        .temperature(1.5)
         .build();
     
     // Main game loop
